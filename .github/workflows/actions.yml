@@ -1,6 +1,5 @@
 name: actions_wf
 
-# on: [push,pull_request]
 on: 
   schedule:
     - cron: "0/5 * * * *"
